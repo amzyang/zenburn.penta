@@ -11,6 +11,10 @@ More to come...
 Copy zenburn.penta to `~/.pentadactyl/colors/` or use command `:he colorscheme` to
 get some help.
 
+## TODO ##
+
+* Add more color groups (StatusLineBroken, StatusLineExtended, etc)
+
 ## Links ##
 
 * [Vim](http://www.vim.org/) -- A highly configurable text editor.
