@@ -2,24 +2,32 @@
 " Author: zouyang
 " Last Updated: Sat 08 Jan 2011 09:46:19 PM CST
 hi -a StatusLineNormal      color:#ccdc90; background-color:#313633 !important; font-weight:bold; margin-bottom:-2px;
-hi -a StatusLineSecure      color:#87af87; background-color:#313633 !important; font-weight:bold; margin-bottom:-2px;
+hi -l StatusLineNormal StatusLineSecure         color:#87af87;
+hi -l StatusLineNormal StatusLineBroken         color:#ffa0a0;
+hi -l StatusLineNormal StatusLineExtended       color:#a0ffa0;
 hi -a String                color:#cc9393;
 hi -a Boolean               color:#dca3a3;
 hi -a Function              color:#efef8f;
 hi -a Number                color:#8cdod3;
-hi -a WarningMsg            color:#ffffff; background-color:#333333;
+hi -a WarningMsg            color:#ffffff; background-color:#333333; font-weight:bold;
+hi -l WarningMsg StatusWarningMsg
+hi -a ErrorMsg              color:#80d4aa !important; background-color:inherit !important; font-weight:bold;
+hi -l ErrorMsg StatusErrorMsg
+hi -l ErrorMsg CmdErrorMsg
 hi -a ModeMsg               color:#ffcfaf; background-color:transparent !important;
-hi -a StatusModeMsg         color:#ffcfaf !important; background-color:transparent !important; font-size:inherit; vertical-align:middle;
-hi -a CmdModeMsg            color:#ffcfaf !important; background-color:transparent !important; font-size:inherit; vertical-align:middle;
+hi -l ModeMsg StatusModeMsg
+hi -l ModeMsg CmdModeMsg
 hi -a MoreMsg               color:#ffffff; background-color:transparent !important; font-weight:bold;
-hi -a StatusMoreMsg         color:#ffffff !important; font-weight:bold !important; font-size:inherit; vertical-align:middle;
-hi -a CmdMoreMsg            color:#ffffff !important; font-weight:bold !important; font-size:inherit; vertical-align:middle;
+hi -l MoreMsg StatusMoreMsg
+hi -l MoreMsg CmdMoreMsg
 hi -a StatusQuestion        color:inherit; background-color:transparent;font-weight:normal; vertical-align:middle;
 hi -a Tag                   color:#e89393; font-weight:bold;
 hi -a Question              color:#ffffff; font-weight:bold;
 hi -a CmdLine               font-weight:normal; padding:0px 3px;
 hi -a NonText               color:#404040; font-weight:bold;
-hi -a Normal                color:#dcdccc; background-color:#1f1f1f !important;
+hi Normal                color:#dcdccc; background-color:#313633;
+hi -l Normal CmdNormal
+hi -l Normal StatusNormal
 hi -a Title                 color:#efefef; background-color:inherit; font-weight:bold;
 hi -a CompItem[selected]    color:#cbecd0; background-color:#2c302d !important;
 hi -a CompMore              margin-bottom:0;margin-top:.5ex;
@@ -30,9 +38,6 @@ hi -a CompTitle             color:lightblue; background-color:transparent;
 hi -a CompTitleSep          background:-moz-linear-gradient(60deg, lightblue, white); height:1px;
 hi -a Filter                font-style:italic; text-decoration:underline;
 hi -a Keyword               color:#f0dfaf; font-weight:bold;
-hi -a WarningMsg            color:#ffffff; background-color:#333333; font-weight:bold;
-hi -a StatusWarningMsg      color:#ffffff; background-color:#333333; font-weight:bold;
-hi -a ErrorMsg              color:#80d4aa !important; background-color:inherit !important; font-weight:bold;
 hi -a URL                   text-decoration:none; color:#9ECE9E; background-color:inherit;
 hi -a URL:hover             text-decoration:underline; cursor: pointer;
 hi -a LineNr                color:#9fafaf; background-color:#262626;
