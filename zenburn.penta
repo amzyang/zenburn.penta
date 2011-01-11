@@ -43,7 +43,7 @@ hi -a CompLess              margin-top:.5ex;margin-bottom:1ex;
 hi -a CompLess::after       content:"\02c6"
 hi -a CompTitle             color:lightblue; background-color:transparent;
 hi -a CompTitleSep          background:-moz-linear-gradient(60deg, lightblue, white); height:1px;
-hi -a Filter                font-style:italic; text-decoration:underline;
+hi -a Filter                font-weight:normal; text-decoration:underline;
 hi -a Keyword               color:#f0dfaf; font-weight:bold;
 hi -a URL                   text-decoration:none; color:#9ECE9E; background-color:inherit;
 hi -a URL:hover             text-decoration:underline; cursor: pointer;
