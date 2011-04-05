@@ -50,6 +50,13 @@ hi -a URL                                       text-decoration:none; color:#9EC
 hi -a URL:hover                                 text-decoration:underline; cursor: pointer;
 hi -a LineNr                                    color:#9fafaf; background-color:#262626;
 
+" REPL
+hi -l Normal REPL
+hi -a REPL                                      font-family:"Lucida Console","Bitstream Vera Sans Mono",Monaco,Consolas,"Courier New",serif;white-space:pre;line-height:1.8em;margin:1em 0;padding: 0.5em 0 0.3em 0;
+hi -a REPL-P                                    font-size:92%;margin:0.2em 0;border-bottom:1px dashed #999;
+hi -a REPL-R
+hi -a REPL-E                                    
+
 " plugin styles
 hi -a BufTabSelected                            color:#2e3330; background-color:#88b090; padding:0 4px; font-weight:normal;
 hi -a BufTabs                                   margin:0 4px; overflow:hidden;
