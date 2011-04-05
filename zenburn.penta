@@ -1,6 +1,6 @@
 " FileName: zenburn.penta
 " Author: zouyang
-" Last Updated: Sun 20 Mar 2011 09:46:19 PM CST
+" Last Updated: Wed 06 Apr 2011 02:30:19 PM CST
 hi Cmd                                          background-color:#3F3F3F;
 hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important; font-size:9pt;
 
