@@ -1,6 +1,6 @@
 " FileName: zenburn.penta
 " Author: zouyang
-" Last Updated: Wed 06 Apr 2011 02:30:19 PM CST
+" Last Updated: Wed 26 Apr 2011 02:30:19 PM CST
 hi Cmd                                          background-color:#3F3F3F;
 hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important; font-size:9pt;
 
@@ -58,9 +58,10 @@ hi -a REPL-R
 hi -a REPL-E                                    
 
 " plugin styles
-hi -a BufTabSelected                            color:#2e3330; background-color:#88b090; padding:0; font-weight:normal;
-hi -a BufTabs                                   margin:0 4px; overflow:hidden;
-hi -a BufTab                                    padding:0 2px;
+hi -a BufTabSelected                            color:#2e3330; background-color:#88b090; padding:0 8px !important; font-weight:normal;
+hi -a BufTabAlternate                           padding:0 8px !important;
+hi -a BufTab                                    padding:0 8px !important;
+" hi -a BufTab:hover                              font-weight:bolder;
 
 " specific
 hi -a NonText                                   color:#5b605e; font-weight:bold;
