@@ -2,7 +2,7 @@
 " Author: zouyang
 " Last Updated: Wed 26 Apr 2011 02:30:19 PM CST
 hi Cmd                                          background-color:#3F3F3F;
-hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important; font-size:9pt;
+hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important; font-size:9pt !important;
 
 hi -l StatusLineNormal StatusLineSecure         color:#87af87;
 hi -l StatusLineNormal StatusLineBroken         color:#ffa0a0;
@@ -52,7 +52,7 @@ hi -a LineNr                                    color:#9fafaf; background-color:
 
 " REPL
 hi -l Normal REPL
-hi -a REPL                                      font-family:"Lucida Console","Bitstream Vera Sans Mono",Monaco,Consolas,"Courier New",serif;white-space:pre;line-height:1.8em;margin:1em 0;padding: 0.5em 0 0.3em 0;
+hi -a REPL                                      font-family:"Lucida Console","Bitstream Vera Sans Mono",Monaco,Consolas,"Courier New",serif;white-space:pre;line-height:1.4em;margin:1em 0;padding: 0.5em 0 0.3em 0;
 hi -a REPL-P                                    font-size:92%;margin:0.2em 0;border-bottom:1px dashed #999;
 hi -a REPL-R
 hi -a REPL-E                                    
