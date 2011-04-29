@@ -2,7 +2,8 @@
 " Author: zouyang
 " Last Updated: Wed 26 Apr 2011 02:30:19 PM CST
 hi Cmd                                          background-color:#3F3F3F;
-hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important; font-size:9pt !important;
+hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important;
+" font-size:9pt !important;
 
 hi -l StatusLineNormal StatusLineSecure         color:#87af87;
 hi -l StatusLineNormal StatusLineBroken         color:#ffa0a0;
