@@ -45,6 +45,8 @@ hi -a CompLess                                  margin-top:.5ex;margin-bottom:1e
 " hi -a CompLess::after                           content:"︿"
 hi -a CompTitle                                 color:lightblue; background-color:transparent;
 hi -a CompTitleSep                              background:-moz-linear-gradient(60deg, lightblue, white); height:1px;
+hi -a CompResult                                width:46%;
+hi -a CompDesc                                  width:52%;
 hi -a Filter                                    font-style:normal; font-weight:bold;
 hi -a Keyword                                   color:#f0dfaf; font-weight:bold;
 hi -a URL                                       text-decoration:none; color:#9ECE9E; background-color:inherit;
