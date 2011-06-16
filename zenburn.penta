@@ -62,11 +62,11 @@ hi -a REPL-E
 
 " plugin styles
 " hi -a BufTabSelected                            color:#2e3330; background-color:#88b090; padding:0 4px !important; font-weight:normal;border-radius:2px;
-hi -a BufTabSelected                            background-repeat:no-repeat; background-size:contain, contain; background-position: 4px top; color:#FFF; background-color:#000; margin:0 1px !important; font-weight:normal; border-bottom-left-radius:2px; border-bottom-right-radius:2px;
+hi -a BufTabSelected                            background-repeat:no-repeat; background-size:contain, contain; background-position: 4px top; color:#FFF; background-color:#000; margin:0 1px !important; font-weight:normal; border-bottom-left-radius:2px; border-bottom-right-radius:2px;padding-right:0.4em;
 hi -a BufTabAlternate                           background-repeat:no-repeat; background-size:contain, contain; background-position: 4px top; margin:0 1px !important; cursor:pointer !important;
 hi -a BufTab                                    background-repeat:no-repeat; background-size:contain, contain; background-position: 4px top; margin:0 1px !important; cursor:pointer !important;
-hi -a BufTab:hover                              color:#2e3330;background-color: #88b090; border-bottom-left-radius:2px; border-bottom-right-radius:2px;
-hi -a BufTabAlternate:hover                     color:#2e3330;background-color: #88b090; border-bottom-left-radius:2px; border-bottom-right-radius:2px;
+hi -a BufTab:hover                              color:#2e3330;background-color: #88b090; border-bottom-left-radius:2px; border-bottom-right-radius:2px;padding-right:0.4em;
+hi -a BufTabAlternate:hover                     color:#2e3330;background-color: #88b090; border-bottom-left-radius:2px; border-bottom-right-radius:2px;padding-right:0.4em;
 " hi -a BufTab:hover                              font-weight:bolder;
 
 " specific
