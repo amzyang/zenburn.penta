@@ -1,6 +1,6 @@
 " FileName: zenburn.penta
 " Author: zouyang
-" Last Updated: Wed 26 Apr 2011 02:30:19 PM CST
+" Last Updated: Tue 26 Jul 2011 09:47:19 AM CST
 hi Cmd                                          background-color:#3F3F3F;
 hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important;
 " font-size:9pt !important;
@@ -28,7 +28,6 @@ hi -l MoreMsg CmdMoreMsg
 hi -l Cmd InfoMsg                               color:#cccccc !important;
 hi -l InfoMsg StatusInfoMsg
 hi -l InfoMsg CmdInfoMsg
-hi -l MoreMsg Indicator                         width:4px;
 hi Question                                     color:#ffffff !important; background-color:inherit !important; font-weight:bold;
 hi -l Question StatusQuestion
 hi -l Question CmdQuestion
@@ -38,6 +37,7 @@ hi -a NonText                                   color:#404040; font-weight:bold;
 hi Normal                                       color:#dcdccc !important; background-color:#3F3F3F !important; font-size:9pt;
 hi -l Normal CmdNormal
 hi -l Normal StatusNormal
+hi -l Normal Indicator                          width:4px;
 hi -a Title                                     color:#efefef; background-color:inherit; font-weight:bold;
 hi -a CompItem[selected]                        background-color:#4c504d !important;
 hi -a CompMore                                  margin-bottom:0;margin-top:.5ex;
