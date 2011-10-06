@@ -1,13 +1,9 @@
 " FileName: zenburn.penta
 " Author: zouyang
-" Last Updated: Tue 26 Jul 2011 09:47:19 AM CST
+" Last Updated: Fri 07 Oct 2011 00:07:19 AM CST
 hi Cmd                                          background-color:#3F3F3F;
 hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important;
-" font-size:9pt !important;
 
-hi -l StatusLineNormal StatusLineSecure         color:#87af87;
-hi -l StatusLineNormal StatusLineBroken         color:#ffa0a0;
-hi -l StatusLineNormal StatusLineExtended       color:#a0ffa0;
 hi -a String                                    color:#cc9393;
 hi -a Boolean                                   color:#dca3a3;
 hi -a Function                                  color:#efef8f;
