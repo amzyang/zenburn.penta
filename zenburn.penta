@@ -1,8 +1,12 @@
 " FileName: zenburn.penta
 " Author: zouyang
 " Last Updated: Fri 07 Oct 2011 00:07:19 AM CST
+
 hi Cmd                                          background-color:#3F3F3F;
 hi -a StatusLineNormal                          color:#ccdc90; background-color:#3F3F3F !important;
+hi -a 'StatusLineBroken [dactyl|highlight*="Status"]' background-color:transparent !important;color:#313633 !important;
+hi -a 'StatusLineExtended [dactyl|highlight*="Status"]' background-color:transparent !important;color:#313633 !important;
+hi -a 'StatusLineSecure [dactyl|highlight*="Status"]' background-color:transparent !important;color:#313633 !important;
 
 hi -a String                                    color:#cc9393;
 hi -a Boolean                                   color:#dca3a3;
