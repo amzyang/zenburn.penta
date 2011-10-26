@@ -12,11 +12,11 @@ hi -a String                                    color:#cc9393;
 hi -a Boolean                                   color:#dca3a3;
 hi -a Function                                  color:#efef8f;
 hi -a Number                                    color:#8cd0d3;
-hi WarningMsg                                   color:#ffffff; background-color:#333333 !important; font-weight:bold;
-hi WarningMsg>*                                 color:#ffffff; background-color:#333333 !important; font-weight:bold;
+hi WarningMsg                                   color:#ffffff; font-weight:bold;
+hi WarningMsg>*                                 color:#ffffff; font-weight:bold;
 hi -l WarningMsg StatusWarningMsg
 hi -l WarningMsg CmdWarningMsg
-hi ErrorMsg                                     color:#80d4aa !important; background-color:#2f2f2f !important; font-weight:bold;
+hi ErrorMsg                                     color:#80d4aa !important; font-weight:bold;
 hi -l ErrorMsg StatusErrorMsg
 hi -l ErrorMsg CmdErrorMsg
 hi -a ModeMsg                                   color:#ffcfaf; background-color:transparent !important;
